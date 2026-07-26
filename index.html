@@ -128,6 +128,14 @@ footer .container{display:flex;flex-wrap:wrap;justify-content:space-between;gap:
 .nl-note{margin-top:14px;font-size:11.5px;color:var(--muted-2);line-height:1.5}
 .nl-success{text-align:center;padding:16px 0}
 .nl-success .ok{font-size:44px;color:var(--green);line-height:1;margin-bottom:12px}
+
+/* generated imagery */
+.hero-visual{margin-top:40px;border-radius:20px;overflow:hidden;border:1px solid var(--line);position:relative;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.hero-visual img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}
+.hero-visual::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,19,30,.05),rgba(13,19,30,.55));pointer-events:none}
+.band{margin:0;border-radius:18px;overflow:hidden;border:1px solid var(--line);position:relative}
+.band img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover}
+.band::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,19,30,.10),rgba(13,19,30,.60));pointer-events:none}
 </style>
 </head>
 <body>
@@ -159,6 +167,7 @@ footer .container{display:flex;flex-wrap:wrap;justify-content:space-between;gap:
       <div class="avatar"><img src="lara-avatar.jpg" alt="Dr. Lara Vadlau"></div>
       <div>Von <b>Dr. Lara Vadlau</b> · Longevity Medicine</div>
     </div>
+    <div class="hero-visual reveal"><img src="hero.webp" alt="Hanteln im warmen Lichtstrahl" loading="eager"></div>
   </div>
 </section>
 
@@ -220,6 +229,13 @@ footer .container{display:flex;flex-wrap:wrap;justify-content:space-between;gap:
       <p>Ein paar Zahlen zur Orientierung, keine starren Regeln: Als grobe Richtgröße gelten rund <b>10 harte Sätze pro Muskelgruppe und Woche</b>, verteilt auf die zwei bis drei Einheiten. Protein <b>über den Tag verteilt</b> (etwa 20 bis 40 g pro Mahlzeit) wirkt besser als eine einzige große Portion.</p>
       <p>Und der wichtigste Punkt für Longevity: Kraft und Muskelmasse sind einer der stärksten Marker für gesundes Altern. Der Muskelabbau im Alter (Sarkopenie) ist <b>kein Schicksal</b>, sondern in Studien selbst bei Hochbetagten umkehrbar.</p>
     </div>
+  </div>
+</section>
+
+<!-- SECTION IMAGE -->
+<section style="padding:0 0 8px;border-top:none">
+  <div class="container">
+    <div class="band reveal"><img src="sec.webp" alt="Proteinreiche Mahlzeit" loading="lazy"></div>
   </div>
 </section>
 
